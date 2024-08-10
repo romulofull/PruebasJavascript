@@ -49,3 +49,40 @@ console.log (add(10,20))
 console.log (add(6,8))
 console.log (add(2))
 
+const user = {
+    name : 'romulo',
+    lastname : 'programador',
+    age : '30',
+    adress : {
+country: 'Espana',
+city: 'Toledo',
+street: 'calle Quijote 123'
+    },
+    friends: ['elena', 'brandon'],
+    active: true,
+    sendMail: function() {
+        return 'sending email ....'
+    }
+}
+console.log(user)
+console.log(user.name)
+console.log(user.adress.city)
+console.log(user.friends)
+console.log(user.active)
+console.log(user.sendMail)
+console.log(user.sendMail())
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
