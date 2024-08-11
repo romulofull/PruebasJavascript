@@ -74,15 +74,39 @@ console.log(user.sendMail())
 
 
 
+const name = 'laptop'
+const price = 3000
+const newProduct = {
+    name: name,
+    price: price
+
+}
+console.log (newProduct)
+const names = 'Pc'
+const prices = 4000
+const newProducts = {
+    names,
+    prices
+
+}
+console.log (newProducts)
+
+const title = document.createElement('h1')
+console.log (title)
+document.body.append(title)
+title.innerText = 'Hola Mundo desde JS'
+
+const button = document.createElement('button')
+button.innerText = 'click'
+button.addEventListener('click', function(){
+console.log('Hola Mundo')
+title.innerText = 'Texto actualizado de PROGRAMADOR'
+alert ('Se realizo un click')})
 
 
 
-
-
-    
-
-
-
+document.body.append(title)
+document.body.append(button)
 
 
 
