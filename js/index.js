@@ -151,9 +151,52 @@ function printInfo(userto) {
 
 
 
+function start(){
+
+    return 'starting'}
+
+    console.log(start())
+
+    console.log(function start(){
+
+        return 'starting'}())
+
+        console.log(function start(){
+
+            return 'starting'})
+
+console.log(function (){
+
+return 'starting'})
 
 
 
+const buttona = document.createElement('buttona')
+buttona.innerText = 'click me'
+buttona.addEventListener('click', function(){
+alert ('clicked')
+})
+document.body.append(buttona)
+
+const buttonas = document.createElement('buttonas')
+buttonas.innerText = 'click mes'
+function handleClick(){
+    alert ('clickeda')}
+buttonas.addEventListener('click', handleClick)
+document.body.append(buttonas)
 
 
+document.body.append('<h4>FUNCIONES FLECHA </h4>')
 
+
+//function add (x,y) {
+   // return x + y}
+//const add =  (x,y)  => { return x + y}
+
+    
+const butt = document.createElement('butt')
+butt.innerText = 'click mee'
+butt.addEventListener('click', () => {
+alert ('Click')
+})
+document.body.append(butt)
