@@ -103,10 +103,57 @@ console.log('Hola Mundo')
 title.innerText = 'Texto actualizado de PROGRAMADOR'
 alert ('Se realizo un click')})
 
-
-
 document.body.append(title)
 document.body.append(button)
+
+
+
+
+const userti = {
+    name: 'programando y haciendo pruebas',
+    age: 30
+}
+function printInfo(userti) {
+return '<h1>Hola '  + userti.name + '</h1>'
+}
+console.log(printInfo(userti))
+document.body.innerHTML = printInfo(userti)
+
+
+const userta = {
+    name: 'programando y haciendo pruebas',
+    age: 30
+}
+function printInfo(userta) {
+    return '<h1>Hola '  + userta['age'] + '</h1>'
+    }
+document.body.innerHTML = printInfo(userta)
+
+
+const userte = {
+    name: 'programando y haciendo pruebas',
+    age: 30
+}
+function printInfo({name}) {
+    return '<h1>Hola '  + name + '</h1>'
+    }
+document.body.innerHTML = printInfo(userte)
+
+const userto = {
+    name: 'programando y haciendo pruebas',
+    age: 30
+}
+function printInfo(userto) {
+    const { name,age } = userto;
+    console.log(name,age);
+    return '<h1>Hola '  + name + '</h1>'
+}
+
+
+
+
+
+
 
 
 
