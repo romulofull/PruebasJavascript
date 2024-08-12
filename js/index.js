@@ -200,3 +200,32 @@ butt.addEventListener('click', () => {
 alert ('Click')
 })
 document.body.append(butt)
+
+const showText = () => { return 'Hola Mundo'}
+console.log (showText())
+
+const showTexte = () => 'Hola Mundo'
+console.log (showTexte())
+
+
+const showTexto = () => 'Hola Mundo'
+const showNumber = () => 22;
+const showBoolean = () => true
+const showArray = () => [1,2,3]
+const showObject = () => ({name: 'Ryan'})
+console.log (showTexto())
+console.log (showNumber())
+console.log (showBoolean())
+console.log (showArray())
+console.log (showObject())
+
+const but = document.createElement ('but')
+but.innerText = '  clickt'
+const isAuthorized = true
+but.addEventListener ('click', () => { if (isAuthorized) {
+alert ('Esta Autorizado')}
+else {
+    alert ('No Esta Autorizado')
+}
+})
+document.body.append(but)
